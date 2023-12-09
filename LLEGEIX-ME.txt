@@ -1,0 +1,30 @@
+1a: git branch branca00
+
+1b: git checkout branca00
+
+1c: git status -b
+
+5:
+- BRANCA main:
+- git checkout main
+- git status
+- git log
+- git log main..branca00
+
+6: No es pot veure la línia que hem afegit a branca00 ja que estem a la branca main y on hem realitzat la modificació, l'add y el commit de l'arxiu, ha sigut a la branca branca00.
+
+7:
+- git checkout branca00
+- Sí, puc veure l'última línia afegida ja que el git add de l'arxiu, l'hem fet des de la branca "branca00" y el git status també, per tant només podrem veure els canvis en el document des d'aquesta branca.
+
+10b: git merge branca00
+
+12:
+a: git push origin
+b: Ha estat actualitzat correctament.
+c: Per qué hem executat el comandament de l'apartat a des de la branca main.
+
+14:
+a: git push origin branca01
+c: a 6 commits de distància. 
+
